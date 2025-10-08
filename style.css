@@ -1,0 +1,59 @@
+﻿/* Reset CSS basico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+.secao-topo-parallax {
+  min-height: 600px;
+  background-image: url("./images/capa.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+h2 {
+  margin: 0 auto;
+  color: #fff;
+  padding: 10px;
+  width: 330px;
+}
+
+h1 {
+  background-color: #000;
+}
+
+h2 {
+  background-color: #f00;
+}
+.secao-conteudo {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+.secao-conteudo img {
+  width: 200px;
+  height: 250px;
+}
+.secao-divulgacao-parallax {
+  background-image: url("images/img1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px;
+}
+p {
+  line-height: 26px;
+}
+span {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 25px;
+}
